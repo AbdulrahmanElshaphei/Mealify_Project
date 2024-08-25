@@ -1,0 +1,82 @@
+/* body:has(.nav-icons input:checked){
+    background-color: red;
+} */
+
+
+:root:has(.nav-icons input:checked){
+    --color-default:#fff;
+    --color-secondary:#fff;
+    --color-tertiary:#9f9f9f;
+    --color-fourth:rgb(193,126,31);
+    --color-light-grey:#252525;
+    --color-fifth:#202020;
+    --color-six:rgb(224, 144, 31);
+}
+
+body:has(.nav-icons input:checked) .nav{
+    background-color: #171717;
+}
+
+body:has(.nav-icons input:checked) .nav-icons .fas{
+    display: none;
+}
+
+body:has(.nav-icons input:checked) .nav-icons .far{
+    display: block;
+}
+
+body:has(.nav-icons input:checked) .walter-white{
+    background-color: #171717;
+}
+
+body:has(.nav-icons input:checked) .walter-white picture::before{
+    background-image: url(images/team-shape-dark.svg);
+}
+
+body:has(.nav-icons input:checked) .address{
+    background-color: #171717;
+}
+
+body:has(.nav-icons input:checked) .email{
+    background-color: #171717;
+}
+
+body:has(.nav-icons input:checked) .call{
+    background-color: #171717;
+}
+
+body:has(.nav-icons input:checked) .Opening-Hours{
+    background-color: #171717;
+}
+
+body:has(.nav-icons input:checked) .form{
+    background-color: #171717;
+}
+
+body:has(.nav-icons input:checked) .footer{
+    color: var(--color-secondary);
+}
+
+body:has(.nav-icons input:checked) .quick-Links ul li a{
+    color: var(--color-secondary);
+}
+
+body:has(.nav-icons input:checked) .icons-left1 ul li a{
+    color: var(--color-secondary);
+}
+
+body:has(.nav-icons input:checked) .right3 ul li a{
+    color: var(--color-secondary);
+}
+
+body:has(.nav-icons input:checked) .quick-Links ul li:hover{
+    background-color: var(--color-light-grey);
+}
+
+body:has(.nav-icons input:checked) .caption h2{
+    color: var(--color-secondary);
+}
+
+body:has(.nav-icons input:checked) .caption p{
+    color: var(--color-secondary);
+}
